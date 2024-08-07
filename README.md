@@ -6,8 +6,9 @@ Internet > ISP Router > WAN PFSense > LAN PFsense > TP-Link Router
 I am using Proxmox for virtualization also installed an Intel NIC on my server, upgraded to an SSD and upgraded the RAM.
 
 
-Step 1 
+<pre> Step 1 
 Downloaded and unzipped the netgate zip for pfsense and uploaded the ISO to my proxmox server
+</pre>
 ![Step 1 Upload](https://github.com/user-attachments/assets/e76af91d-e731-4385-bc5f-7e8331808a38)
 
 Step 2
