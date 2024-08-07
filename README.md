@@ -21,7 +21,8 @@ Deployed the virtual machine designated for pfSense.
 
 <pre>
 STEP 3
-Added the dedicated Intel interface and assigned its ports as a bridge, ensuring the LAN was on a different subnet.
+Added the dedicated Intel interface and assigned its ports as a bridge, ensuring the LAN was 
+on a different subnet.
 </pre>
 ![Step 3 Add NIC Interfaces](https://github.com/user-attachments/assets/e7ac7eed-456f-4ddf-a91d-3b57eb6696cf)
 
@@ -42,32 +43,36 @@ During this process, I added the necessary interfaces to pfSense and configured 
 
 <pre>
 STEP 5
-I encountered a DNS issue, so I deployed a Windows VM to access pfSense. I enabled the DNS Resolver, set the DNS servers and 
-DHCP Gateway, verified all configurations, and ensured connectivity by successfully pinging Google.
+I encountered a DNS issue, so I deployed a Windows VM to access pfSense. I enabled the 
+DNS Resolver, set the DNS servers and DHCP Gateway, verified all configurations, and 
+ensured connectivity by successfully pinging Google.
 </pre>
 ![Step 5 DNS Issue](https://github.com/user-attachments/assets/d55915b5-4c29-4336-a064-090dbfec3f98)
 
 
 <pre>
 STEP 6
-I connected the TP-Link router to my server and configured it with a static IP. I disabled DHCP, set the router to 
-access point mode, and assigned the gateway to pfSense LAN.
+I connected the TP-Link router to my server and configured it with a static IP. I disabled 
+DHCP, set the router to access point mode, and assigned the gateway to pfSense LAN.
 </pre>
 ![Step 6 Configuring TP Link](https://github.com/user-attachments/assets/e77d512d-5971-44cf-81f0-ed271fc0f4fb)
 
 
 <pre>
 STEP 7
-I connected to pfSense from my laptop and further configured it, enabling DHCP for LAN and setting the DHCP pool.
+I connected to pfSense from my laptop and further configured it, enabling DHCP for LAN and
+setting the DHCP pool.
 </pre>
 ![Step 7 Enabled DHCP and set configs](https://github.com/user-attachments/assets/f2195dd7-eb77-4d40-91bc-038ef47417dd)
 
   <pre>
 STEP 8
-Initially, I planned to install Snort directly on pfSense as an addon. However, after further consideration, 
-I decided to create a standalone VM for Snort. This decision was made to avoid impacting the firewall's performance and 
-to allow for flexible deployment and testing. I planned another technical project to install and configure
-Snort in a separate VM, allowing me to switch it in and out as needed and easily shut it down and spin it back up for experimentation.
+Initially, I planned to install Snort directly on pfSense as an addon. However, after
+further consideration, I decided to create a standalone VM for Snort. This decision was 
+made to avoid impacting the firewall's performance and to allow for flexible deployment 
+and testing. I planned another technical project to install and configure Snort in a 
+separate VM, allowing me to switch it in and out as needed and easily shut it down and 
+spin it back up for experimentation.
   </pre>
 ![Step 8 Snort](https://github.com/user-attachments/assets/0abc36a0-3174-477c-8193-61731b7166a6)
 
