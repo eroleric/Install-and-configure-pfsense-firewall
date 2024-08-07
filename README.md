@@ -21,7 +21,7 @@ Deployed the virtual machine designated for pfSense.
 
 <pre>
 STEP 3
-Ddded the dedicated Intel interface and assigned its ports as a bridge, ensuring the LAN was on a different subnet.
+Added the dedicated Intel interface and assigned its ports as a bridge, ensuring the LAN was on a different subnet.
 </pre>
 ![Step 3 Add NIC Interfaces](https://github.com/user-attachments/assets/e7ac7eed-456f-4ddf-a91d-3b57eb6696cf)
 
